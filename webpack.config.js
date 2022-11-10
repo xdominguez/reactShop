@@ -63,12 +63,6 @@ new htmlWebPackPlugin({
 new miniCss({
     filename:'[name].css'
 })
-    ],
-    devServer:{
-        historyApiFallback: true,
-        static: path.join(__dirname, 'dist'),
-        compress:true,
-        port:3005,
-    }
+    ]
    
 }
